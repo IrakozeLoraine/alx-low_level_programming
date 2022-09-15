@@ -15,3 +15,9 @@
 ### `File 6-print_line.c`: is a C program that draws a straight line in the terminal.
 
 ### `7-print_diagonal.c`: is a C program that draws a diagonal line on the terminal.
+
+### `8-print_square.c`: is a C program that draws a square line on the terminal.
+
+### `9-fizz_buzz.c`: is a C program that solves the "Fizz-Buzz test" interview question.
+
+### `10-print_triangle.c`: is a C program that prints a triangle followed by a new line.
