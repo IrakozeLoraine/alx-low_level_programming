@@ -5,3 +5,5 @@
 ### `File 1-isdigit.c`: is a C program that checks for digits from the given parameter
 
 ### `File 2-mul.c`: is a C program that multiplies two integers
+
+### `File 3-print_numbers.c`: is a C program that prints numbers from 0 to 9 followed by a new line
