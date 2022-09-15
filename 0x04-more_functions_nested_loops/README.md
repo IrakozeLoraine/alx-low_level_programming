@@ -7,3 +7,5 @@
 ### `File 2-mul.c`: is a C program that multiplies two integers
 
 ### `File 3-print_numbers.c`: is a C program that prints numbers from 0 to 9 followed by a new line
+
+### `File 4-print_most_numbers.c`: is a C program that prints numbers from 0 to 9 except 2 and 4 followed by a new line
