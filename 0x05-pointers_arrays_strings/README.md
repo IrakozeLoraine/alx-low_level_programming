@@ -17,3 +17,5 @@
 - File: `6-puts2.c` is a function that prints one char out of 2 of a string, followed by a new line.
 
 - File: `7-puts_half.c` is a function that prints half of a string, followed by a new line.
+
+- File: `8-print_array.c` is a function that prints n elements of an array of integers, followed by a new line.
