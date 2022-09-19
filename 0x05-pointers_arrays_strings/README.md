@@ -11,3 +11,5 @@
 - File: `3-puts.c` is a function that prints a string, followed by a new line, to stdout.
 
 - File: `4-print_rev.c` is a function that prints a string in reverse, followed by a new line.
+
+- File: `5-rev_string.c` is a function that reverses a string.
