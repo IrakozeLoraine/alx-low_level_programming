@@ -21,3 +21,5 @@
 - File: `100-rot13.c` is a function that encodes a string using rot13
 
 - File: `101-print_number.c` is a function that prints an integer
+
+- File: `102-magic.c` is a program that has been modified to print a[2] = 98, followed by a new line.
