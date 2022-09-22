@@ -10,7 +10,7 @@ char *cap_string(char *s)
 {
 	int i, j;
 
-	char special[13] = {' ', '\t', '\n', ',', ';', '.',
+	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
 		'!', '?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; s[i] != '\0'; i++)
@@ -20,7 +20,7 @@ char *cap_string(char *s)
 
 		for (j = 0; j < 13; j++)
 		{
-			if (s[i] == special[j])
+			if (s[i] == spe[j])
 			{
 				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
 				{
