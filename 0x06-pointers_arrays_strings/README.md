@@ -24,4 +24,6 @@
 
 - File: `102-magic.c` is a program that has been modified to print a[2] = 98, followed by a new line.
 
-- File: `103-infinite_add.c` is a function that adds two numbers
+- File: `103-infinite_add.c` is a function that adds two numbers.
+
+- File: `104-print_buffer.c` is a function that prints a buffer.
