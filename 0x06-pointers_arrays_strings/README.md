@@ -19,3 +19,5 @@
 - File: `7-leet.c` is a function that encodes a string into 1337.
 
 - File: `100-rot13.c` is a function that encodes a string using rot13
+
+- File: `101-print_number.c` is a function that prints an integer
