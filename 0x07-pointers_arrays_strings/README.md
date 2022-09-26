@@ -21,3 +21,5 @@
 ### File `main.h` is the header file with the functions prototypes.
 
 ### File `_putchar.c` is the file that contains the \_putchar function.
+
+### File `101-crackme_password` contains the password for the crackme2 executable.
