@@ -2,6 +2,23 @@
 #include <stdlib.h>
 #include <stddef.h>
 
+
+/**
+  * string_length - finds the length of a string.
+  * Return: length of c.
+  * @pointer: pointer.
+  */
+int string_length(char *pointer)
+{
+	int c = 0;
+
+	while (*(pointer + c) != '\0')
+	{
+		c++;
+	}
+	return (c);
+}
+
 /**
  * *str_concat - concatenates two strings.
  *
@@ -40,19 +57,4 @@ char *str_concat(char *s1, char *s2)
 	}
 	new_str[j] = '\0';
 	return (new_str);
-}
-/**
-  * string_length - finds the length of a string.
-  * Return: length of c.
-  * @pointer: pointer.
-  */
-int string_length(char *pointer)
-{
-	int c = 0;
-
-	while (*(pointer + c) != '\0')
-	{
-		c++;
-	}
-	return (c);
 }
