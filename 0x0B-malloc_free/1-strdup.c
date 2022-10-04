@@ -3,6 +3,22 @@
 #include <stddef.h>
 
 /**
+  * string_length - finds the length of a string.
+  * Return: length of c.
+  * @pointer: pointer.
+  */
+int string_length(char *pointer)
+{
+	int c = 0;
+
+	while (*(pointer + c) != '\0')
+	{
+		c++;
+	}
+	return (c);
+}
+
+/**
  * *_strdup - returns pointer to a newly allocated space in memory,
  * which contains a copy of the string given as a parameter.
  *
@@ -31,19 +47,4 @@ char *_strdup(char *str)
 	}
 	copy[i] = '\0';
 	return (copy);
-}
-/**
-  * string_length - finds the length of a string.
-  * Return: length of c.
-  * @pointer: pointer.
-  */
-int string_length(char *pointer)
-{
-	int c = 0;
-
-	while (*(pointer + c) != '\0')
-	{
-		c++;
-	}
-	return (c);
 }
